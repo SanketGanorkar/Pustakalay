@@ -1,0 +1,77 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.viewBook{
+  outline: none;
+  border: 1px solid white;
+  background-color: transparent;
+  padding: 5px 20px 5px 20px;
+  color: white;
+  font-size: 20px;
+}
+
+.pop-parent{
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  top: 0;
+  background-color: rgba(82, 82, 82, 0.5);
+}
+
+.pop-up-card{
+  position: relative;
+  display: flex;
+  padding: 20px;
+  top: 10%;
+  color: white ;
+  height: 80vh;
+  width: 60vw;
+  background-color: rgb(40, 40, 40);
+  box-shadow: 0px 0px 20px rgb(65, 65, 65);
+}
+.cancel{
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  cursor: pointer;
+  background-color: rgb(60, 60, 60);
+  border: 2px solid gray;
+  padding: 3px 7px;
+  font-size: 12px;
+  border-radius: 8px;
+}
+
+.pop-up-card img{
+  max-height: 300px;
+  margin-bottom: 10px;
+}
+.pop-up-card .info{
+  width: 50%;
+}
+.pop-up-card .update{
+  width: 50%;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.pop-up-card input, textarea{
+  background-color: rgb(71, 71, 71);
+  outline: none;
+  color: white;
+  padding: 5px 10px;
+  width: 90%;
+}
+.pop-up-card .field{
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.update button{
+  width: 90%;
+  margin-top: 20px;
+}
