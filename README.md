@@ -77,7 +77,8 @@ Contributions are welcome! Please follow these steps to contribute:
 4. Push to the branch: `git push origin feature/your-feature-name`.
 5. Open a pull request.
 
-## Screenshots 
+# Screenshots 
+## Frontend
 1. Home 
 ![Home](https://github.com/SanketGanorkar/Bookstore/assets/110564177/1398c3db-043d-4010-893d-879c820e9f30)
 
@@ -101,6 +102,27 @@ Contributions are welcome! Please follow these steps to contribute:
 
 8. Deleted successfully
 ![Deleted](https://github.com/SanketGanorkar/Bookstore/assets/110564177/69c10bf1-b85c-4c21-b71d-30f75434ca15)
+
+## Backend
+1. test_book
+![test_book](https://github.com/SanketGanorkar/Bookstore/assets/110564177/a048f4bb-28a3-4327-bc47-70c93c401a9c)
+
+2. add book
+![addBook](https://github.com/SanketGanorkar/Bookstore/assets/110564177/8a73f1ce-0567-4a31-9a25-06f94a10eaed)
+
+3. getbook with id
+![getBook_with_id](https://github.com/SanketGanorkar/Bookstore/assets/110564177/55f3e485-1b85-4c2e-a0a0-08017665d222)
+
+4. delete with id
+![delete_with_id](https://github.com/SanketGanorkar/Bookstore/assets/110564177/fc9089a9-34ea-4bfa-b236-5165cf170b59)
+
+5. update with id 
+![update_with_id](https://github.com/SanketGanorkar/Bookstore/assets/110564177/fb9bc991-dcdd-4775-9c3c-bf2c44f1421e)
+
+
+
+
+
 
 
    
