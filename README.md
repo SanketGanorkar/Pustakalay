@@ -1,7 +1,6 @@
 # Bookstore Management application
 
 This is a full-stack bookstore management application built using the MERN stack (MongoDB, Express.js, React, Node.js). The application allows users to perform CRUD (Create, Read, Update, Delete) operations for managing books. It features a functional front end and back end.
-
 ## Features
 
 - Responsive and user-friendly frontend
@@ -36,14 +35,14 @@ To set up the project locally, follow these steps:
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/yourusername/elite-edge-fitness.git
-    cd Gym
+    git clone https://github.com/SanketGanorkar/Bookstore.git
+    cd store
     ```
 
 2. **Install frontend dependencies:**
     ```bash
-    cd book
     cd frontend
+    cd book
     npm install
     ```
 
@@ -80,28 +79,29 @@ Contributions are welcome! Please follow these steps to contribute:
 
 ## Screenshots 
 1. Home 
-!(https://github.com/SanketGanorkar/Gym/assets/110564177/36820dfe-d587-4123-a87e-996fb49201a6)
+![Home](https://github.com/SanketGanorkar/Bookstore/assets/110564177/1398c3db-043d-4010-893d-879c820e9f30)
 
 2. Book section
-!(https://github.com/SanketGanorkar/Gym/assets/110564177/edaa8f78-71b7-4620-ab17-035d152e127c)
+![Book section](https://github.com/SanketGanorkar/Bookstore/assets/110564177/a47442ce-e02b-4965-b28b-bb5bd934e41d)
 
 3. Add book
-!(https://github.com/SanketGanorkar/Gym/assets/110564177/dadb3fed-83c3-4c93-bbb0-3e1adc91dd81)
+![Add book](https://github.com/SanketGanorkar/Bookstore/assets/110564177/75ba7392-28b6-4ca2-9dc8-0f20d4b0dd90)
 
-4. Added successfully
-!(https://github.com/SanketGanorkar/Gym/assets/110564177/d4f8e17c-1a3f-4c31-a4e4-81b26edffac5)
+4. Book added successfully
+![Added Successfully](https://github.com/SanketGanorkar/Bookstore/assets/110564177/7c41036f-4151-4674-b1e1-fa012f7fbe46)
 
-5. View added book in booksection
-!(https://github.com/SanketGanorkar/Gym/assets/110564177/3e6fd03a-fb81-481c-86ea-fc6b2dd6e70b)
+5. Update
+![Update](https://github.com/SanketGanorkar/Bookstore/assets/110564177/f2884fa0-898c-4edd-85e9-f5ae51c2ebde)
 
-6. Update
-!(https://github.com/SanketGanorkar/Gym/assets/110564177/3e6fd03a-fb81-481c-86ea-fc6b2dd6e70b)
+6. Update successfully
+![Updated](https://github.com/SanketGanorkar/Bookstore/assets/110564177/1772b6e1-dfdd-4983-a102-d51c507cd152)
 
-7. Update successfully
-!(https://github.com/SanketGanorkar/Gym/assets/110564177/71c76a3f-03d0-49a4-ad80-5663531f2201)
+7. Delete
+![Delete](https://github.com/SanketGanorkar/Bookstore/assets/110564177/c1b1101f-2e5e-434d-941d-f53da7bd2803)
 
-8. Delete
-!(https://github.com/SanketGanorkar/Gym/assets/110564177/71c76a3f-03d0-49a4-ad80-5663531f2201)
+8. Deleted successfully
+![Deleted](https://github.com/SanketGanorkar/Bookstore/assets/110564177/69c10bf1-b85c-4c21-b71d-30f75434ca15)
+
 
    
 
