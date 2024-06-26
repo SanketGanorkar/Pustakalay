@@ -14,7 +14,7 @@ function UpdatePopUp({data, setSelectData, setIsUpdate}) {
 
     const handleUpdate = async()=>{
         try {  
-            const res = await axios.post(`http://localhost:1000/api/v1/updateBook/${data._id}`, book);
+            const res = await axios.post(`https://pustakalay-backend.onrender.com/${data._id}`, book);
             
             if(res.status === 200){
                 window.alert("Updated successfully");
