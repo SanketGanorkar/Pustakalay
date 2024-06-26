@@ -1,24 +1,5 @@
 const router = require("express").Router();
-// const { MdMessage } = require('react-icons/md');
 const bookModel = require("../models/bookModel.js");
-
-// POST REQUEST
-// router.post("/add", async (req,res) => {
-//     try{
-//         const data = req.body;
-//         const newBook = new bookModel(data);
-//         await newBook.save().then((result)=>{
-//             console.log(result);
-//             res.status(200).json({
-//                 message : "Book added successfully",
-//                 result: result,
-//             })
-//         })
-//     }
-//     catch(err){
-//         console.log(err)
-//     }
-// })
 
 router.post("/add", async (req, res) => {
     try {

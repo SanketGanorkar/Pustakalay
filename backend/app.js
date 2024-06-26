@@ -7,8 +7,9 @@ require("./connection/conn.js")
 app.use(cors())
 app.use(express.json())
 
+const port = process.env.PORT || 1000
 app.use('/api/v1',bookRoute)
 
-app.listen(1000,()=>{
+app.listen(port,()=>{
     console.log('server started')
 })

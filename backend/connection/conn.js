@@ -3,3 +3,6 @@ mongoose.connect("mongodb+srv://codemaster:lOyDImjIfHfiAxwp@cluster0.lpdllre.mon
     .then(()=>
         console.log('connected')
     )
+    .catch(()=>{
+        console.log('not connected')
+    })
