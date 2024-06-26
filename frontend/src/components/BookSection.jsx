@@ -16,7 +16,7 @@ const BookSection = ({ data }) => {
     try {
       const confirmation = window.confirm("Are you sure to delete this book from records?");
       if(confirmation){
-        const res = await axios.delete(`http://localhost:1000/api/v1/deleteBook/${id}`);
+        const res = await axios.delete(`https://pustakalay-backend.onrender.com/${id}`);
         
         if(res.status === 201){
           console.log("Successfully deleted");
